@@ -1,0 +1,31 @@
+body {
+    background: #ffffff url(../../images/squairy_light.png);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya', serif;
+}
+#login {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 500px;
+    margin: 60px auto 30px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 6px 6px #cdcdcd;
+    -moz-box-shadow: 0 0 6px 6px #cdcdcd;
+    box-shadow: 0 0 6px 6px #cdcdcd;
+}
+.btn-facebook {
+    background: #3b5998;
+    color: #ffffff !important;
+}
+.btn-google {
+    background: #c32f10;
+    color: #ffffff !important;
+}
+.input-group-addon {
+    margin-top: 3px;
+}

@@ -1,0 +1,9 @@
+body{
+    background: url(https://network4rentals.com/network/assets/themes/admin/images/back.png);
+	background-color: #444;
+    background: url(https://network4rentals.com/network/assets/themes/admin/images/pinlayer2.png),url(https://network4rentals.com/network/assets/themes/admin/images/pinlayer1.png),url(https://network4rentals.com/network/assets/themes/admin/images/back.png)    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}

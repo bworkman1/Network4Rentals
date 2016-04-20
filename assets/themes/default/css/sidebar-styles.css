@@ -1,0 +1,95 @@
+
+#locals .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+	
+	cursor: pointer;
+    padding: 18px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .5px;
+	border-bottom: 1px solid #a7a7a7;
+    border-top: 1px solid #000;
+}
+#locals .panel-heading:first-child {
+    border-top: 1px solid #ddd !important
+}
+#locals a {
+	text-decoration: none;
+}
+#locals .panel-body a {
+	font-family: "Times New Roman", Times, serif;
+}
+#locals a>.panel-heading:hover {
+	background-color: #ffffff;
+}
+#locals .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+#locals .panel-default:first-child {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: none;
+}
+#locals .panel-default:last-child {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: none;
+}
+#locals .panel:first-child {
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+#locals .panel:last-child {
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+#locals .panel {
+	margin-bottom: 0;
+}
+#locals .panel-body {
+	background: #F4F4FD;
+    border-left: 1px solid rgba(0,0,0,.05);
+    border-right: 1px solid rgba(0,0,0,.05);
+}
+#locals .panel-body ul {
+	margin: 0;
+	padding: 0;
+}
+#locals .panel-body ul li {
+	padding: 4px 8px;
+    border: 1px solid #F4F4FD;
+    border-bottom: 1px solid #9d9dd9;
+}
+#locals .panel-body ul li:hover {
+    
+}
+#locals .panel .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+    margin-top: -36px;
+    margin-right: 10px;
+    color: #337ab7;
+}
+#locals .panel .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    font-family: 'FontAwesome';
+    float: right;
+    margin-top: -36px;
+    margin-right: 10px;
+    color: #337ab7;
+    content:  "\f067";    /* adjust as needed, taken from bootstrap.css */
+}
+#locals .panel-heading {
+    text-shadow: none !important;
+}

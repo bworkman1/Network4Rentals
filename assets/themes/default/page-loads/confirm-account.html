@@ -1,0 +1,22 @@
+	<legend>Confirm <b class="text-warning">Renter</b> Account</legend>
+	<p>Thanks for signing up for a free renters account. The next step is to confirm your account, we just sent you an email/text message with a code in it. Copy the code in the box below to confirm your account.</p>
+	<p>If you didn't get the email/text click the resend button below and we will send another.</p>
+	
+	<form id="confirmCode" class="form" role="form">
+		<div class="row">
+			<div class="col-xs-8">
+				<div class="form-group">
+					<input class="form-control" id="confirmCode" name="confirm" placeholder="Confirmation Code" type="text" />
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<button type="text" id="confirmCodeBtn" class="btn btn-warning btn-block">Confirm</button>
+			</div>
+		</div>
+	</form>
+	<hr>
+	<a href="#" id="confirmByPhone">Confirm by text message instead</a>
+	<div id="switchToSMS"></div>
+	<br>
+	<div id="form-feedback"></div>
+	<button id="resend" class="btn btn-info btn-block btn-lg">Resend</button>

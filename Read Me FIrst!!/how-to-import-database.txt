@@ -1,0 +1,21 @@
+First you will need to create a database -
+phpmyadmin -> name it to whatever you want...
+
+Next import the database file to your newly created database 
+To import it you won't be able to use the upload through phpmyadmin
+Add mysql.exe to your path variable in windows
+1.) locate your mysql.exe file. Mine was located in C:\MAMP\bin\mysql\bin yours will be similar.
+2.) Open a folder and on the left side right click on "This PC" and go to properties
+3.) Left side click on "Advanced System Settings"
+4.) Click on "Environment Variables" button
+5.) Bottom box scroll down to the Path and add your mysql.exe full path including the C:/ They are seperated by ;
+6.) Open command prompt and type mysql -v. copyright and stuff pops up you did it :) If not make sure your mamp/wamp is on.
+7.) In command prompt navigate to the directory this file is.
+8.) mysqldump -u root -p [DATA_BASENAME] > database.sql 
+9.) It should ask for a password and then see some matrix stuff. Wait for it to finish.
+
+DATABASE IMPORT DONE
+
+
+There is going to be a whole bunch of issues for now. Most of them will be that the links are not pointing to your local url. This can be fixed by using base_url('file/name');
+

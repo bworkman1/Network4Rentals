@@ -1,0 +1,4 @@
+.tenantsInfoBox a:link, .landlordsInfoBox  a:link, .showTenantsZip a:link, .showLandlordsZip a:link {text-decoration: none;}
+.box:hover {background: #158cba !important; color: #ffffff !important;}
+.box:hover h3 {color: #ffffff !important;}
+.border-bottom {border-bottom: 1px solid #ccc;}

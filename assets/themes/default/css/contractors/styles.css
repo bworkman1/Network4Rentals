@@ -1,0 +1,565 @@
+html {
+	position: relative; 
+	min-height: 100%
+}
+body {
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: bold;
+}
+h4, h5, h6 {
+	font-weight: 500;
+}
+h3 i {
+	font-size: 1.3em;
+}
+li {
+	list-style: none;
+}
+.activity-icon {
+	font-size: 2em;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 10px 5px 10px 5px;
+	background: #28B62C;
+	color: #ffffff;
+	border: 1px solid #fdfdfd;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.activity-time {
+	font-size: .8em;
+}
+.activity .btn {
+	margin-top: 15px;
+}
+.activity .line-under  {
+	font-size: .9em;
+}
+.note-editable  li {
+    list-style: initial !important;
+}
+.datepicker{z-index: 2000 !important;}
+.navbar-collapse {
+  max-height: inherit;
+}
+.highlight {
+	border-left: 3px solid #23a127;
+	padding-left: 5px;
+	line-height: 1.4em;
+}
+.panel-with-button {
+	margin-top: 10px;
+}
+.bootstrap-tagsinput {
+	width: 100%;
+	min-height: 100px;
+}
+#service-request-details .borderRow {
+    border-bottom: 1px solid #FAFAFA;
+    padding: 8px 15px;
+}
+#seo textarea {
+	min-height: 100px;
+}
+.tag.label.label-info {
+	margin-top: 5px;
+}
+.zip-results .row, .zips_purchased .row {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #cecece;
+	padding-top: 5px;
+}
+.bottom-border {
+	border-bottom: 1px solid #ccc;
+}
+.padding-top {
+	padding-top: 15px;
+}
+.margin-bottom {
+	margin-bottom: 5px;
+}
+.serviceRequestDetails ul {
+	padding: 0;
+	margin: 0;
+}
+.displayNone {
+	display: none;
+}
+.serviceRequestDetails ul li b {
+
+}
+.serviceRequestDetails ul li {
+	padding: 3px 0;
+	border-bottom: 1px solid #ececec;
+}
+.highlight-orange {
+	border-left: 3px solid #ff851b;
+	padding-left: 5px;
+	line-height: 1.4em;
+}
+.highlight-blue {
+	border-left: 3px solid #158cba;
+	padding-left: 5px;
+	line-height: 1.4em;
+}
+.img-center {
+	margin: 0 auto;
+}
+.indent {
+	padding-left: 8px;
+	padding-top: 2px;
+	margin-bottom: 8px;
+}
+#notes-list {
+	margin: 0;
+	padding: 0;
+}
+#notes-list li {
+	padding-left: 8px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #cfcfcf;
+}
+#notes-list li.landlord {
+	border-left: 3px solid #428BCA;
+}
+#notes-list li.renter {
+	border-left: 3px solid #FF7706;
+}
+#notes-list li.contractor {
+	border-left: 3px solid #28b62c;
+}
+/* Overlay loading styles */
+.overlay {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .8 ) 
+                url('../../images/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+.alert i { margin-top: -5px;}
+.serviceOptions .option {
+	margin-top: 8px;
+}
+#topSocials li {
+	float: right;
+}
+.btn-social {
+	padding-left: 14px;
+	margin-left: 5px;
+}
+.line-under {
+	border-bottom: 1px solid #dedede;
+	line-height: 2.3em;
+}
+.homeStyles {
+	background: #43484E;
+  color: #cccccc;
+  height: 45px;
+  line-height: 45px;
+  font-size: .8em;
+}
+#top_bar ul li {
+  list-style-type: none;
+  display: inline;
+}
+.hideBkg {
+    display: none;
+}
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .overlay {
+    display: block;
+}
+
+/* Header Styles*/
+#header {background: #28b62c;-webkit-box-shadow: 0px 0px 8px -2px #000000; -moz-box-shadow: 0px 0px 8px -2px #000000; box-shadow: 0px 0px 8px -2px #000000; border-bottom: 1px solid #ddd;}
+.logo {margin: 15px 0;}
+/*menu styles */
+.menu-column ul.dropdown-menu li {
+	margin: 0;
+	padding: 0;
+}
+.menu-column .dropdown-menu {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	border: none;
+	border-radius: 0;
+	border-top: 2px solid #28b62c;
+	border-bottom: 2px solid #28b62c;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	min-width: 100%;
+	margin-bottom: 8px;
+}
+.menu-column ul.dropdown-menu li a {
+	color: #777;
+	line-height: 3.5em !important;
+	font-size: .9em !important;
+	min-height: 50px;
+	padding-left: 35px;
+}
+.menu-column ul.dropdown-menu li a:hover {
+	background: #28b62c !important; /* Old browsers */
+	text-shadow: 1px 1px 1px #575757;
+	color: #fff;
+}
+.panel-heading {
+	text-shadow: 1px 1px 1px #000000;
+}
+.menu-column .nav  {
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.menu-column {
+	padding: 0;
+	margin: 0;
+}
+.menu-column .navbar-default {
+	border-left: none;
+}
+.btn-group li a {
+	padding: 15px;
+}
+.btn-group li a:hover {
+	background-color: #28B62C;
+	color: #fff;
+}
+.dropdown-menu {
+	text-shadow: none !important;
+}
+.menu-column .nav>li>a {
+	display: block;
+	padding: 10px 20px;
+	font-size: 13px;
+	color: #777;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	background-color: #f8f8f8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f2f2f2));
+	background: -webkit-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -moz-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -ms-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -o-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: linear-gradient(top, #f9f9f9, #f2f2f2);
+	box-shadow: inset 0px 1px 1px #fff;
+}
+.menu-column .nav > li > a:hover,  .menu-column .nav > li.active  > a,  .dropdown-menu>.active>a  {
+	color: #fff !important;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	background: #28b62c; /* Old browsers */
+	box-shadow: none;
+	color: #fff;
+}
+.remove-column-padding-left {
+	padding-left: 0;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.menu-column .nav li i {
+	display: inline-block;
+	margin-right: 5px;
+	background: #fff;
+	color: #777;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+}
+.menu-column .nav li:hover  i, .menu-column .nav li.active  i  {
+	color: #777 !important;
+	background-color: #fff !important;
+	border: 1px solid #c0c0c0;
+
+}
+.menu-column .nav li .dropdown-menu i {
+	width: auto;
+	line-height: inherit;
+	height: auto;
+	border-radius: 0;
+	border: none;
+	background-color: transparent !important;
+	color: #777  !important;
+}
+.menu-column .nav .dropdown-menu li:hover  i , .menu-column .nav .dropdown-menu li.active  i {
+	color: #fff  !important;
+}
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .nav-tabs .open>a, .nav-tabs .open>a:hover, .nav-tabs .open>a:focus {
+	background: #23a127;
+	color: #ffffff;
+}
+/*Home Page/Intro Page Styles*/
+#full-width-image {
+	background: url(../../images/contractors-intro-image.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	width: 100%;
+	padding: 25px 0;
+	min-height: 200px;
+	color: #fff;
+	border-bottom: #28b62c;
+}
+#full-width-image h1, #full-width-image h2 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #4A4A4A;
+	margin: 0 0 15px 0;
+}
+.benefit {
+	border: 1px solid #ccc;
+	color: #444;
+	padding: 5px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	background-color: rgba(255, 255, 255, .8);
+	min-height: 200px;
+	position: relative;
+}
+.benefit:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+.benefit a:link {
+	visibility: hidden;
+	position: absolute;
+	bottom: 5px;
+	left: 35%;
+}
+.benefit:hover > a:link {
+	visibility: visible;
+}
+.youtube_video {
+  padding: 10px;
+  width: 85%;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 2px 2px rgba(100, 100, 100, .7);
+  box-shadow: 1px 1px 2px 2px rgba(100, 100, 100, .7);
+}
+/*create account styles */
+#overlay1 {
+    display: block; /* ensures itâ€™s invisible until itâ€™s called */
+    position: absolute; /* makes the div go into a position thatâ€™s absolute to the browser viewing area */
+    left: 25%; /* positions the div half way horizontally */
+    top: 25%; /* positions the div half way vertically */
+    padding: 25px; 
+    border: 2px solid black;
+    background-color: #ffffff;
+    width: 50%;
+    height: 50%;
+    z-index: 100; /* makes the div the top layer, so itâ€™ll lay on top of the other content */
+}
+#fade1 {
+    display: none;  /* ensures itâ€™s invisible until itâ€™s called */
+    position: absolute;  /* makes the div go into a position thatâ€™s absolute to the browser viewing area */
+    left: 0%; /* makes the div span all the way across the viewing area */
+    top: 0%; /* makes the div span all the way across the viewing area */
+    background-color: black;
+    -moz-opacity: 0.7; /* makes the div transparent, so you have a cool overlay effect */
+    opacity: .70;
+    filter: alpha(opacity=70);
+    width: 100%;
+    height: 100%;
+    z-index: 90; /* makes the div the second most top layer, so itâ€™ll lay on top of everything else EXCEPT for divs with a higher z-index (meaning the #overlay ruleset) */
+}
+
+.payment-check, .payment-card, .payment-offline {
+	display: none;
+}
+#payment-form form {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	background-color: #f9f9f7;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	padding: 13px 20px;
+}
+
+
+#payment-form form h4 {text-align: center; font-weight: bold;}
+#payment-form .routing  span {color: red; font-style: italic;}
+
+#suggestion-window ul {margin: 0; padding: 0;}
+#suggestion-window li.suggestion-selection  {
+	display: block;
+	cursor: hand;
+	display: block;
+	background: #ffffff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	
+}
+.hiddenStepInfo {
+    display: none;
+}
+
+.activeStepInfo {
+    display: block !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.step {
+    margin-top: 27px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 0px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+
+#div1, #div2, #div3, #div4 {}
+.fillout div {
+	border-bottom: 1px solid cdcdcd;
+}
+.step .activestep {
+    color: #28b62c;
+    height: 100px;
+	background: #FAFAFA;
+    margin-top: -7px;
+    padding-top: 7px;
+    border-bottom: 3px solid #28b62c !important;
+    vertical-align: central;
+}
+.error_input {
+	border: 1px solid #D31E1E;
+}
+#div1 .fa, #div2  .fa, #div3 .fa, #div4 .fa, #div5 .fa {
+    padding-top: 15px;
+    font-size: 40px;
+}
+.fill-in .row { border-bottom: 2px solid #fdfdfd; padding: 8px 0;}
+.gotoStep {width: 19%;}
+.landlord-info {margin-bottom: 5px;}
+
+ul.s-results .add-landlord {font-size: 1.5em;}
+ul.s-results {margin: 0; padding: 0;}
+ul.s-results li {display: block; background: #ffffff; cursor: pointer !important;}
+
+#results ul{position: absolute; z-index: 10; background: #FEFEFE; width: 87.5%; padding: 0; margin: 0; border: 1px solid #ff851b;}
+#results ul li {padding: 12px 5px; }
+#results ul li:first-child {cursor: default !important;}
+#results ul li:first-child:hover {background: #FEFEFE;}
+#results ul li:hover {background: #ececec !important; cursor: pointer !important;}
+
+
+/*Footer Styles*/
+footer {background: #28b62c; width: 100%; color: #fff; padding: 8px 0; text-shadow: 1px 1px 1px #4A4A4A; font-size: .8em;}
+#support-help {cursor: pointer; position: fixed; bottom: 0; right: 10px; border-top: 1px solid #444;	border-left: 1px solid #444; border-right: 1px solid #444; padding: 5px 8px; font-size: 1.5em; text-shadow: 1px 1px 1px #4A4A4A; color: #fff; background: #43484E; box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.4); -webkit-box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.4);}
+footer a, footer a:visited, footer a:hover {
+	color: #fdfdfd;
+}
+
+.mainMenu {background: #fdfdfd;}
+
+p#slogan {margin-top: 15px; padding: 0;}
+/* Button Styles */
+#top_bar {background: #43484E; color: #cccccc; -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,7); box-shadow: 1px 1px 1px 1px rgba(0,0,0,7); margin-bottom: 15px;}
+#top_bar ul#options {float: right; margin-top: 8px;}
+#top_bar ul#options li {float: left; position: relative;}
+#top_bar ul.subMenu {display: none; position: absolute; max-width: 350px; min-width: 300px; right: 0%; z-index: 1000; background: #f9f9f9; color: #444; font-size: .8em; border: 1px solid #444; margin-top: 5px; padding: 0; margin: 0; -webkit-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px;}
+#top_bar .badge {margin-left:-15px; background: #2075A2; color: #fff;}
+#top_bar .subMenu li {border-bottom: 1px solid #cfcfcf; width: 100%; padding: 0 15px; margin: 0; line-height: 45px;}
+#top_bar .subMenu li:hover {background: #fff;}
+#top_bar ul.subMenu a {color: #444; text-decoration: none; display: block;}
+#top_bar ul.subMenu:after, 
+#top_bar ul.subMenu:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#top_bar ul.subMenu:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #f9f9f9;
+    border-width: 17px;
+    left: 85%;
+    margin-right: -17px;
+}
+#top_bar ul.subMenu:before {
+    border-color: rgba(113, 158, 206, 0);
+    border-bottom-color: #f9f9f9;
+    border-width: 18px;
+    left: 85%;
+    margin-right: -20px;
+}
+ul#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#sortable_members li, ul#sortable_vendors li, ul#sortable li {
+    padding: 10px;
+}
+.eCheckDiv {
+	border-right: 2px dashed #009;
+}
+.payFeaturesIcons {
+	text-align: center;
+	font-size: 30px;
+}
+.payFeaturesTextBox {
+	min-height:72px;
+}
+.btnRow {
+	padding: 25px;
+}
+.paytransTextBox {
+	min-height: 73px;
+}
+@media(max-width: 771px) {
+	body {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,560 @@
+/*
+	Page Styles For The Landlord Associations
+	EMF Web Solutions
+	Developer - Brian Workman
+	Utica Ohio
+*/
+
+body {
+	font-size: 16px;
+	background: url(../../images/sos.png);
+	font-family: "tenso",sans-serif;
+	color: #777777;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "abril-titling-narrow",sans-serif;
+	color: #777777;
+}
+.modal  {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+/* Header Styles */
+#header {
+	background-color: #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1aaef3), to(#0993d3));
+	background: -webkit-linear-gradient(top, #1aaef3, #0993d3);
+	background: -moz-linear-gradient(top, #1aaef3, #0993d3);
+	background: -ms-linear-gradient(top, #1aaef3, #0993d3);
+	background: -o-linear-gradient(top, #1aaef3, #0993d3);
+	background: linear-gradient(top, #1aaef3, #0993d3);
+	padding: 15px 0;
+}
+#top_bar {
+	background: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	padding: 5px 0;
+}
+/* Navigation Styles */
+.navbar-default {
+	background-color: transparent;
+	border: 1px solid #cccccc;
+	border-radius: 0;
+}
+.navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.sidebar .nav>li>a {
+	display: block;
+	padding: 10px 20px;
+	font-size: 13px;
+	color: #777;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	background-color: #f8f8f8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f2f2f2));
+	background: -webkit-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -moz-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -ms-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: -o-linear-gradient(top, #f9f9f9, #f2f2f2);
+	background: linear-gradient(top, #f9f9f9, #f2f2f2);
+	box-shadow: inset 0px 1px 1px #fff;
+}
+.sidebar .nav > li > a:hover, .sidebar .nav > li.active  > a  {
+	color: #e9e9e9;
+	border-bottom: 1px solid #167cac;
+	border-top: 1px solid #2094ca;
+	background-color: #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1aaef3), to(#0993d3));
+	background: -webkit-linear-gradient(top, #1aaef3, #0993d3);
+	background: -moz-linear-gradient(top, #1aaef3, #0993d3);
+	background: -ms-linear-gradient(top, #1aaef3, #0993d3);
+	background: -o-linear-gradient(top, #1aaef3, #0993d3);
+	background: linear-gradient(top, #1aaef3, #0993d3);
+	box-shadow: none;
+	color: #fff;
+	font-weight: bold;
+}
+.sidebar .nav li i {
+	display: inline-block;
+	margin-right: 5px;
+	background: #eee;
+	color: #888;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+}
+.sidebar .nav li:hover  i,.sidebar .nav li.active  i  {
+	color: #fff;
+	background-color: #167cac !important;
+	border: 1px solid #167cac;
+}
+.nav-stacked>li+li {
+	margin-top:0;
+}
+/* Home Page Styles */
+.img-bkg-home { 
+	background: url(../../images/landlord-associations/landlord-assoications.jpg);
+	min-height: 350px;
+}
+.signup-btn {
+	margin-top: 4px;
+}
+#intro {
+	padding-top: 30px;
+}
+#header-warp {
+	margin-bottom: 15px;
+}
+#main-header  {
+	display: inline-block;
+	border: 2px solid #0993d3;
+	min-width: 35%;
+	margin-top: -25px;
+	position: relative;
+	z-index: 1;
+	background-color: rgba(250, 250, 250, .9);
+	padding: 0 10px;
+}
+#header-warp h1 {
+	position: relative;
+	z-index: 2;
+}
+#header-warp .white-bkg {
+	border: 1px solid #0993d3;
+}
+/* Create Account Styles */
+#service_zips_tagsinput {
+	width: 100% !important;
+}
+.sr-only {
+	color: #a94442;
+}
+/* login account box styles */
+.md-modal .form-control-feedback {
+	top: 7px;
+	right: 10px;
+}
+/* Page Styles */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.call-to-action h2 {
+	margin-top: 10px;
+}
+.box {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	box-shadow: inset 0px 1px 1px #fff;	
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.box p {
+	padding: 8px;
+}
+.box.text-left {
+	text-align: left !important;
+	padding: 0 15px 15px 15px;
+}
+.content {
+	padding: 15px;
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	box-shadow: inset 0px 1px 1px #fff;	
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+.smalltitle {
+	position: relative;
+	border-bottom: 1px solid #777777;
+	margin-bottom: 35px;
+	margin-top: -10px;
+}
+.smalltitle span {
+	display: inline-block;
+	background: #ffffff;
+	padding: 1px 12px;
+	position: relative;
+	top: 20px;
+	padding-left: 0 !important;
+	text-transform: uppercase;
+}
+/* Color Styles */
+.blue-text {
+	color: #0993d3;
+}
+.white-bkg {
+	background-color: #ffffff;
+	padding: 0 10px;
+}
+.text-primary {
+	color: #1aaef3;
+}
+/* Icon Styles */
+.round-icon {
+	font-size: 2em;
+	display: inline-block;
+	margin-right: 5px;
+	width: 58px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #167cac !important;
+	border: 1px solid #167cac;
+}
+.form-horizontal .has-feedback .form-control-feedback{
+	top: 10px;
+}
+/* Button Styles */
+.panel-primary>.panel-heading {
+	background-color: #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1aaef3), to(#0993d3));
+	background: -webkit-linear-gradient(top, #1aaef3, #0993d3);
+	background: -moz-linear-gradient(top, #1aaef3, #0993d3);
+	background: -ms-linear-gradient(top, #1aaef3, #0993d3);
+	background: -o-linear-gradient(top, #1aaef3, #0993d3);
+	background: linear-gradient(top, #1aaef3, #0993d3);
+}
+.btn {
+	border-radius: 0;
+}
+.btn-primary {
+	background-color: #aaa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1aaef3), to(#0993d3));
+	background: -webkit-linear-gradient(top, #1aaef3, #0993d3);
+	background: -moz-linear-gradient(top, #1aaef3, #0993d3);
+	background: -ms-linear-gradient(top, #1aaef3, #0993d3);
+	background: -o-linear-gradient(top, #1aaef3, #0993d3);
+	background: linear-gradient(top, #1aaef3, #0993d3);
+	border-color: #888;
+}
+.btn-primary:hover, .btn-primary:focus {
+	background: #0993d3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0993d3 0%, #1aaef3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0993d3), color-stop(100%,#1aaef3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0993d3 0%,#1aaef3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0993d3 0%,#1aaef3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0993d3 0%,#1aaef3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0993d3 0%,#1aaef3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0993d3', endColorstr='#1aaef3',GradientType=0 ); /* IE6-9 */
+	border-color: #888;
+}
+.form-control-feedback {
+	top: 10px;
+	right: 10px;
+}
+/* Modal */
+.closeModal {
+	margin-top: -57px !important;
+	color: #ffffff;
+	cursor: pointer;
+}
+.closeModal i {
+	font-size: 1.5em;
+}
+.box {
+	background: #ffffff;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: 0px 0px 1px 0px #ccc;
+	box-shadow: 0px 0px 1px 0px #ccc;
+}
+.home-box {
+	background: #ffffff;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: 0px 0px 1px 0px #ccc;
+	box-shadow: 0px 0px 1px 0px #ccc;
+	min-height: 75px;
+}
+.home-box .box-side {
+	min-height: 75px;
+	text-align: center;
+	width: 30%;
+	font-size: 2.3em;
+	padding:10px; 
+	border-radius: 5px 0 0 5px;
+	float: left;
+	color: #ffffff !important;
+}
+.home-box .box-side.color {
+	background: #203C99;
+}
+.home-box .box-side.color2 {
+	padding-top: 4px;
+	background: #9CE7FF;
+}
+.home-box .box-side.color3 {
+	background: #687FCC;
+}
+.home-box .box-side.color4 {
+	background: #FF772A;
+}
+.home-box .box-right-side {
+	width: 70%;
+	float: right;
+	padding-left: 5px;
+}
+.table th:first-child {
+	text-align: center;
+}
+.table tbody tr:first-child > th:nth-child(2) {
+	text-align: center;
+}
+ul#recent-events li {
+	padding: 8px 4px;
+}
+ul#recent-events li:nth-child(even) {
+	background: #f9f9f9;
+}
+.stylish-icon {
+	display: inline-block;
+	margin-right: 5px;
+	background: #167cac;
+	color: #ffffff;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 30px;
+	border: 1px solid #ffffff;
+}
+.spacing15 {
+	height: 15px;
+}
+/* Calendar Page Results */
+.cal-address {
+	display: none;
+}
+.cal-events {
+	margin: 0;
+	padding: 5px 0;
+	background: #0993d3;
+	color: #ffffff;
+	border-radius: 5px 5px 0 0;
+}
+ul.cal-event-list .addedItem  {
+	background: #0993d3;
+	color: #ffffff;	
+}
+
+ul.cal-event-list li  {
+	cursor: pointer;
+	padding: 5px;
+	display: block;
+}
+
+ul.cal-event-list li:hover  {
+	background: #0993d3;
+	color: #ffffff;
+}
+.calDelete {
+	position: absolute;
+	display: none;
+}
+#event_map {
+	width: 100% !important;
+}
+.table >tbody>tr>td {
+	padding: 5px;
+	text-align: center;
+}
+
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar tbody tr:first-child th {
+    color: #505050;
+    margin: 0 0 10px 0;
+}
+
+.day_header {
+    font-weight: normal;
+    text-align: center;
+    color: #757575;
+    font-size: 10px;
+}
+
+.calendar td {
+    width: 14%; /* Force all cells to be about the same width regardless of content */
+    border:1px solid #CCC;
+    height: 100px;
+    vertical-align: top;
+    font-size: 10px;
+    padding: 0;
+}
+
+.calendar td:hover {
+    background: #F3F3F3;
+}
+
+.day_listing {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #2C2C2C;
+    padding: 5px 5px 0 0;
+}
+
+div.today {
+    background: #E9EFF7;
+    height: 100%;
+} 
+.hideBkg {
+	display: none;
+}
+.img-center {
+	margin: 0 auto;
+}
+/* Members Page */
+ul#sortable_members li, ul#sortable_vendors li, ul#sortable li {
+	padding: 10px;
+}
+
+#addMemeberForm {
+	display: none;
+}
+ul#searchLandlordResults {
+	margin-top: 15px;
+	padding-top: 30px;
+}
+ul#searchLandlordResults li:first-child {
+	border-top: 1px solid #ccc;
+}
+ul#searchLandlordResults li h4 {
+	margin: 5px 0 0 0;
+}
+ul#searchLandlordResults li {
+	padding: 5px 0 5px 15px;
+	cursor: pointer; 
+}
+ul#searchLandlordResults li:hover {
+	background: #F5F5F5; 
+}
+.addNewCategoryButton {
+	cursor: pointer;
+}
+.modal-content {
+	border-radius: 0;
+}
+#addCategorybtn {
+	cursor: pointer;
+}
+#addCategorybtn:hover {
+	background: #0993d3;
+	color: #fff;
+}
+/* Public Page */
+.addPage {
+	cursor: pointer;
+}
+
+/* Edit Account Page */
+ul#uneditable-settings {
+	margin-bottom: 20px;
+}
+ul#uneditable-settings li {
+	padding: 5px 0 5px 8px;
+	border-top: 1px dashed #666;
+	
+}
+ul#uneditable-settings li:first-child {
+	border-top: none;
+}
+/* Text Editor Styles */
+#input {border:none; margin:0; padding:0; font:14px 'Courier New',Verdana; border:0}
+.te {border:1px solid #bbb; padding:0 1px 1px; font:12px Verdana,Arial; margin:25px}
+.te iframe {border:none}
+.teheader {height:31px; border-bottom:1px solid #bbb; background:url(../../images/landlord-associations/header-bg.gif) repeat-x; padding-top:1px}
+.teheader select {float:left; margin-top:5px}
+.tefont {margin-left:12px}
+.tesize {margin:0 3px}
+.testyle {margin-right:12px}
+.tedivider {float:left; width:1px; height:30px; background:#ccc}
+.tecontrol {float:left; width:34px; height:30px; cursor:pointer; background-image:url(../../images/landlord-associations/icons.png)}
+.tecontrol:hover {background-color:#fff; background-position:30px 0}
+.tefooter {height:32px; border-top:1px solid #bbb; background:#f5f5f5}
+.toggle {float:left; background:url(../../images/landlord-associations/icons.png) -34px 2px no-repeat; padding:9px 13px 0 31px; height:23px; border-right:1px solid #ccc; cursor:pointer; color:#666}
+.toggle:hover {background-color:#fff}
+.resize {float:right; height:32px; width:32px; background:url(../../images/landlord-associations/resize.gif) 15px 15px no-repeat; cursor:s-resize}
+#editor {cursor:text; margin:10px}
+
+/* Post Styles */
+.imageSpace {
+	position: relative;
+}
+.uploadedImages {
+	max-height: 90px;
+	padding: 4px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.uploadedImages:hover {
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+.deleteUploadedImage {
+	position: absolute;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	background: #000000;
+	color: #ffffff;
+	padding: 3px 14px 3px 3px;
+	border: 1px solid #fff;
+	top: -7px;
+	right: 9px;
+	font-size: .8em;
+	cursor: pointer;
+}
+.deleteUploadedImage:hover {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+/* MEMBERS PAGE STYLES */
+.fakeLink {
+	cursor: pointer;
+	color: #1aaef3;
+	text-decoration: underline;
+}
+.fakeLink label {
+	color: #444;
+}
+
+@media only screen and (min-width: 900px) {
+
+
+    .navbar-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+     .collapse {
+        display: none;
+     }
+
+     .navbar-header {
+        display: block;
+     }
+}

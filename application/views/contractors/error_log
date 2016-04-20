@@ -1,0 +1,1 @@
+[15-Mar-2016 20:38:57 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/network4/public_html/network/application/views/contractors/payment-intro.php on line 18
